@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style3.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <title>reservation</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-group">
+        <div id="form">
+          <h1 class="text-white text-center">Réservation</h1>
+          <div id="first-group">
+            <div id="content">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <input type="text" id="input-group" placeholder="Nom" />
+            </div>
+
+            <div id="content">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <input type="number" id="input-group" placeholder="Téléphone" />
+            </div>
+
+            <div id="content">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <input
+                type="text"
+                id="input-group"
+                placeholder="Date d'arriver"
+              />
+            </div>
+
+            <div id="content">
+              <i class="fa fa-users" aria-hidden="true"></i>
+              <select id="input-group" style="background-color: black">
+                <option value="">Num.Personnes</option>
+                <option value="">1-4</option>
+                <option value="">7-10</option>
+                <option value="">11-14</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="second-group">
+            <div id="content">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <input type="text" id="input-group" placeholder="Prénom" />
+            </div>
+
+            <div id="content">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <input type="email" id="input-group" placeholder="Email" />
+            </div>
+
+            <div id="content">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <input
+                type="text"
+                id="input-group"
+                placeholder="Date de départ"
+              />
+            </div>
+
+            <div id="content">
+              <i class="fa fa-users" aria-hidden="true"></i>
+              <select id="input-group" style="background-color: black">
+                <option value="">type de chambre</option>
+                <option value="">Callelongue</option>
+                <option value="">Garlaban</option>
+                <option value="">Frédéric Mistral</option>
+                <option value="">Félibres</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" value="Submit" id="submit-btn">réserver</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
